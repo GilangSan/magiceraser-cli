@@ -1,0 +1,7 @@
+node_modules/
+out/
+*.tgz
+t.jpg
+t392.jpg
+*.log
+.DS_Store

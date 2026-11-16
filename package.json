@@ -1,0 +1,45 @@
+{
+  "name": "magiceraser-cli",
+  "version": "1.0.0",
+  "description": "Client and CLI for the Magic Eraser (com.duygiangdg.magiceraser) HTTP API: background removal, inpaint, segment, expand, replace, AI background, flash, upscale, depth, relight.",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "bin": {
+    "magiceraser": "./bin/magiceraser.js"
+  },
+  "files": [
+    "index.js",
+    "bin",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "check": "node selfcheck.mjs"
+  },
+  "keywords": [
+    "magic-eraser",
+    "background-removal",
+    "inpaint",
+    "image-editing",
+    "photo-editor",
+    "segmentation",
+    "ai",
+    "cli",
+    "reverse-engineering"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GilangSan/magiceraser-cli.git"
+  },
+  "homepage": "https://github.com/GilangSan/magiceraser-cli#readme",
+  "bugs": {
+    "url": "https://github.com/GilangSan/magiceraser-cli/issues"
+  },
+  "author": "Lang (GilangSan)",
+  "license": "MIT"
+}
