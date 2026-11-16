@@ -17,7 +17,7 @@ const [fixed] = await me.inpaint(jpeg, mask);
 ```
 
 ```bash
-npm i magiceraser-cli            # once published
+npm i magiceraser-cli
 magiceraser inpaint photo.jpg out.jpg --rect 96,96,200,150
 magiceraser imagen out.jpg "a cat in a spacesuit"
 magiceraser flash --list
